@@ -1,6 +1,6 @@
 {
 	"name": "demo_20221222",
-	"description": "Demonstration of testing inside a Docker container.",
+	"description": "Demonstration of testing and watching from a Docker container.",
 	"version": "0.1.0-dev",
 	"author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
 	"keywords": [
