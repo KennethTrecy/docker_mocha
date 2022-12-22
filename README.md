@@ -4,8 +4,8 @@ This is a demonstration on make a testing framework watch files in a container. 
 ## Instructions
 
 ### Pre-requisites
-- Docker
-- Node.js
+- [Docker]
+- [Node.js and npm]
 
 ### Steps
 1. Open Docker desktop application or at least start it is able to run a container.
@@ -21,6 +21,8 @@ Some parts of the repository was based from [`empty_package_json`] branch of [We
 ### Author
 Coded by Kenneth Trecy Tobias.
 
+[Docker]: https://www.docker.com/
+[Node.js and npm]: https://nodejs.org/en/
 [Mocha]: https://mochajs.org
 [`empty_package_json`]: https://github.com/KennethTrecy/web_template/tree/empty_package_json
 [Web Template]: http://github.com/KennethTrecy/web_template
