@@ -3,17 +3,16 @@
 	"description": "Demonstration of testing inside a Docker container.",
 	"version": "0.1.0-dev",
 	"author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
-	"keywords": ["front-end", "web", "testing"],
+	"keywords": [
+		"front-end",
+		"web",
+		"testing"
+	],
 	"license": "MIT",
 	"main": "src/index.js",
 	"private": true,
-	"scripts": {
-
-	},
-	"dependencies": {
-
-	},
+	"scripts": {},
 	"devDependencies": {
-
+		"mocha": "^10.2.0"
 	}
 }
