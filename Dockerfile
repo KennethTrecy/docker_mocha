@@ -12,8 +12,6 @@ WORKDIR /var/www/html/app/
 
 COPY ./package.json ./package.json
 
-RUN npm install
-
 ###################################
 FROM base as test
 
@@ -26,3 +24,5 @@ RUN apk add -q git
 
 ENV GIT_DIR=/var/www/html/.git
 ENV GIT_WORK_TREE=/var/www/html/app/
+
+RUN npm install
