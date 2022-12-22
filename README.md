@@ -1,6 +1,9 @@
 # Demo 20222122
 This is a demonstration on make a testing framework watch files in a container. The testing framework used in this demo is [Mocha].
 
+Upon looking in the [dependencies] of [Mocha], it uses [Chokidar package] and requires
+[`CHOKIDAR_USEPOLLING`] to watch the files. This problem was also faced in [other packages].
+
 ## Instructions
 
 ### Pre-requisites
@@ -24,6 +27,10 @@ Coded by Kenneth Trecy Tobias.
 [Docker]: https://www.docker.com/
 [Node.js and npm]: https://nodejs.org/en/
 [Mocha]: https://mochajs.org
+[Chokidar package]: https://github.com/paulmillr/chokidar
+[`CHOKIDAR_USEPOLLING`]: https://github.com/paulmillr/chokidar#performance
+[dependencies]: https://github.com/mochajs/mocha/blob/202e9b8b4d1b6611c96d95d631c49d631d88c827/package.json
+[other packages]: https://github.com/facebook/create-react-app/issues/10253
 [`empty_package_json`]: https://github.com/KennethTrecy/web_template/tree/empty_package_json
 [Web Template]: http://github.com/KennethTrecy/web_template
 [MIT]: https://github.com/KennethTrecy/web_template/blob/master/LICENSE
