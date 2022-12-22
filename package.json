@@ -1,9 +1,9 @@
 {
-	"name": "web_template",
-	"description": "A simple web template for general reuse.",
+	"name": "demo_20221222",
+	"description": "Demonstration of testing inside a Docker container.",
 	"version": "0.1.0-dev",
-	"homepage": "https://github.com/KennethTrecy/web_template",
-	"keywords": ["front-end", "web", "template-repository"],
+	"author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
+	"keywords": ["front-end", "web", "testing"],
 	"license": "MIT",
 	"main": "src/index.js",
 	"private": true,
