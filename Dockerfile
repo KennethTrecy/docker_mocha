@@ -5,12 +5,15 @@ RUN mkdir /var/www/html
 RUN mkdir /var/www/html/app
 RUN mkdir /var/www/html/app/node_modules
 
-VOLUME [ "/var/www/html/app/" ]
+VOLUME [ "/var/www/html/app" ]
 VOLUME [ "/var/www/html/app/node_modules" ]
 
-WORKDIR /var/www/html/app/
+ENV CHOKIDAR_USEPOLLING=true
+
+WORKDIR /var/www/html/app
 
 COPY ./package.json ./package.json
+COPY ./.mocharc.js ./.mocharc.js
 
 ###################################
 FROM base as test
