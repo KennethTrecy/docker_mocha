@@ -16,7 +16,7 @@ services:
       - test_node_modules:/var/www/html/app/node_modules
     tty: true
     stdin_open: false
-    command: npx mocha t/*.js --watch
+    command: npx mocha t/*.js
 
 volumes:
   test_node_modules:
