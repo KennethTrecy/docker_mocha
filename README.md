@@ -12,7 +12,8 @@ Upon looking in the [dependencies] of [Mocha], it uses [Chokidar package] and re
 
 ### Steps
 1. Open Docker desktop application or at least start it is able to run a container.
-2. While waiting for the desktop application, run `npm install`.
+2. While waiting for the desktop application, run `npm install` in case you want run the tests
+	locally first.
 3. When Docker is ready to run a container, run `docker compose up -d`.
 4. Check the desktop application to confirm that the container is running and view its output.
 5. Try to change the results in [sample test](./t/sample.js).
